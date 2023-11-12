@@ -33,9 +33,9 @@ if num1 == 0:
 
 
 while True:
-  operator = input("Enter an operator (+ , - , * , / , ** ): Or type 'exit' to exit the calculator. ")
+  operator = input(f"Enter an operator (+ , - , * , / , ** ): Or type 'exit' to exit the calculator. ")
   if operator == 'exit':
-            print("Exiting the calculator.")
+            print(f"You just exited from  the calculator.")
             break
   num1 = float(input(f"Enter the 1st number: "))
   num2 = float(input(f"Enter the 2nd number: "))
