@@ -11,15 +11,16 @@ elif operator == "-":
     result = num1 - num2
     print(round(result, 3))
 elif operator == "*":
-    if num2 == 0:
+    if num1 == 0:
        print(f"You can't do a multiplication by number 0. Try again.") 
     if num2 == 0:
        print(f"You can't do a multiplication by number 0. Try again.") 
     else:
         result = num1 * num2
         print(round(result, 3))
+
 elif operator == "/":
-    if num2 == 0:
+    if num1 == 0:
      print(f"You can't do a division by number 0. Try again.")
     if num2 == 0:
      print(f"You can't do a division by number 0. Try again.")
