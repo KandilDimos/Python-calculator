@@ -1,6 +1,6 @@
 
 
-operator = input(f"Enter an operator (+ , - , * , /  ): ")
+operator = input(f"Enter an operator (+ , - , * , / , ** ): ")
 num1 = float(input(f"Enter the 1st number: "))
 num2 = float(input(f"Enter the 2nd number: "))
 
@@ -34,7 +34,7 @@ if num1 == 0:
 
 
 while True:
-  operator = input("Enter an operator (+ , - , * , /  ): ")
+  operator = input("Enter an operator (+ , - , * , / , ** ): ")
 
   if operator == 'exit':
             print("Exiting the calculator.")
