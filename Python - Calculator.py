@@ -36,12 +36,6 @@ elif operator == "**":
 else:
     print(f"{operator} is not a valid operator")
 
-if num2 == 0:
-   print(f"You can't do a division by number 0. Try again.")
-
-
-if num1 == 0:
-    print(f"You can't do a division by number 0. Try again.")
 
 
 while 1:
@@ -87,9 +81,4 @@ while 1:
   else:
     print(f"{operator} is not a valid operator")
 
-  if num2 == 0:
-   print(f"You can't do a division by number 0. Try again.")
 
-
-  if num1 == 0:
-    print(f"You can't do a division by number 0. Try again.")
