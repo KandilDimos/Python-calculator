@@ -32,7 +32,7 @@ if num1 == 0:
   print(f"You can't do a division by number 0. Try again.")
 
 
-while True:
+while 1:
   operator = input(f"Enter an operator (+ , - , * , / , ** ): Or type 'exit' to exit the calculator. ")
   if operator == 'exit':
             print(f"You just exited from  the calculator.")
